@@ -1,0 +1,262 @@
+/* Estilos globales */
+
+* {
+    font-family: calibri;
+}
+
+body {
+    background-color: #22346D;
+}
+
+h1 {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+img {
+    display: block;
+}
+
+.blanco {
+    color: white;
+}
+
+.rojo {
+    color: red;
+}
+
+.gris {
+    color: rgba(225, 225, 225, 0.721);
+}
+
+.color_borde1 {
+    fill: #242A77;
+}
+
+.color_borde2 {
+    fill: #7A1010;
+}
+
+.linea {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.visualizacion1 {
+    margin: 3rem 13rem;
+}
+
+.fondo {
+    background-image: url("./images/fondo.svg");
+    height: 35rem; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.avatar {
+    width: 2.5rem;
+    border: 3px solid #e3d132;
+}
+
+.barra_flex {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 2.5rem;
+    padding-left: 3rem;
+}
+
+.barra1 {
+    width: 20.2rem;
+    height: 1.2rem;
+    border: 3px solid #e3d132;
+    border-left: none;
+    background-color: rgb(225, 225, 225); 
+}
+
+.barra2 {
+    width: 20.2rem;
+    height: 1.2rem;
+    border: 3px solid #e3d132;
+    border-right: none;
+    background-color: rgb(225, 225, 225); 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.vida1 {
+    height: 100%;
+    width: 24%;
+    background-color: red; 
+}
+
+.tamaño_vidaN24 {
+    font-size: 10.5px;
+    margin: 0;
+    text-align: right;
+    margin-right: 7px;
+}
+
+.tamaño_vidaN87 {
+    font-size: 10.5px;
+    margin: 0;
+    text-align: left;
+    margin-left: 7px;
+}
+
+.vida2 {
+    height: 100%;
+    width: 87%;
+    background-color: red; 
+}
+
+.borde_flex {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: flex-end;
+    gap: 4rem;
+    padding-top: 10rem;
+    padding-left: 16rem;
+}
+
+.borde_p1 {
+    width: 8.5rem;
+    height: 8.15rem;
+}
+
+.borde_p2 {
+    width: 15.9rem;
+    height: 14.8rem;
+}
+
+.escudo {
+    width: 7.8rem;    
+    position: absolute;
+    padding-top: 15rem;
+    margin-left: 36.5rem;
+    z-index: 10;
+}
+
+.player_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 4rem;
+    padding-top: 9rem;
+    padding-left: 16rem;
+}
+
+.player1 {
+    width: 8.5rem;
+    height: 8rem;
+}
+
+.player2 {
+    padding-top: 1rem;
+    padding-left: 0.4rem;
+    width: 15.5rem;
+    height: 15.8rem;
+}
+
+.texto_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 4.5rem;
+}
+
+.visualizacion2 {
+    margin: 4rem;
+}
+
+.flex_numeros_player {
+    display: flex;
+    flex-direction: column;
+}
+
+.display_v2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.player1_v2 {
+    width: 8.5rem;
+    height: 7.8rem;
+}
+
+.player2_v2 {
+    width: 15.35rem;
+    height: 15.35rem;
+}
+
+.tamaño_texto {
+    width: 33rem;
+}
+
+.linea_vertical1 {
+    width: 2px; 
+    height: 8rem;
+    background-color: rgba(171, 171, 171, 0.409); 
+}
+
+.medicion {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+
+.linea_horizontal1 {
+    width: 8rem; 
+    height: 2px; 
+    background-color: rgba(171, 171, 171, 0.409); 
+}
+
+.linea_vertical2 {
+    width: 2px; 
+    height: 15.2rem;
+    background-color: rgba(171, 171, 171, 0.409); 
+}
+
+
+.linea_horizontal2 {
+    width: 15.2rem; 
+    height: 2px; 
+    background-color: rgba(171, 171, 171, 0.409); 
+}
+
+.numeros_medida {
+    font-size: 16px;
+}
+
+.flex_numeros {
+    display: flex;
+}
+
+.player_magnitudN24 {
+    margin-left: 6.25rem;
+    background-color: rgb(18, 18, 18); 
+    padding: 8px 25px; 
+}
+
+.player_magnitudN87 {
+    margin-left: 9.25rem;
+    background-color: rgb(18, 18, 18); 
+    padding: 8px 25px; 
+}
